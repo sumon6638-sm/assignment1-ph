@@ -1,0 +1,211 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Uchen', serif;
+}
+
+.navbar{
+    padding: 10px 10px;
+    background-color: rgb(224, 24, 198);
+    position: sticky;
+    top: 0;
+    height: 80px;
+    
+}
+
+.navbar img{
+    height: 70px;
+    float: left;
+}
+
+ul{
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-align: right;
+    color: white;
+}
+
+.navbar a:hover{
+    color: yellow;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+
+
+.heading{
+    margin-top: 120px;
+}
+
+
+h1{
+    font-size: 50px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+h1 span{
+    color: rgb(224, 24, 198);
+}
+
+p{
+    text-align: left;
+}
+
+button{
+    background-image: linear-gradient(180deg, rgb(226, 223, 223), rgb(224, 24, 198));
+    padding: 12px 30px;
+    border: 0px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: 500;
+    font-weight: 700;
+}
+
+button:hover{
+    background-image: linear-gradient(180deg, rgb(224, 24, 198), rgb(226, 223, 223))
+}
+
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.advr-img img{
+    width: 600px;
+    height: 600px;
+}
+
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+
+.about{
+    background: url("img/about-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.about-img img{
+    width: 400px;
+    height: 650px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.recipie h1{
+    text-align: center;
+}
+
+.recipie p{
+    text-align: center;
+}
+
+.tripple-width{
+    width: 24.33%;
+    float: left;
+    margin-left: 5%;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 5px 7px 40px gray;
+    
+}
+
+.tripple-width img{
+    display: block;
+    width: 98%;
+    margin: auto;
+}
+
+.followers{
+    display: block;
+    width: 90%;
+    height: 150px;
+    margin-bottom: 60px;
+    margin-top: 14px;
+}
+
+.connected{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.connected p{
+    text-align: center;
+    margin-top: -30px;
+}
+
+section.delicious-food{
+    height: 1250px;
+}
+
+.full-width{
+    margin: 2%;
+    padding: 70px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px gray;
+    padding-bottom: 100px;
+}
+
+.full-width .left{
+    float: left;
+    width: 50%;
+}
+
+.full-width .left img{
+    margin-left: 20px;
+}
+
+.full-width img{
+    height: 250px;
+    width: 400px;
+    margin: -50px;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.full-width .right{
+    width: 100%;
+}
+
+.full-width .left .second-img{
+    margin-left: 20px;
+}
+
+.heading-delicious h1{
+    text-align: center;
+    text-decoration: double underline;
+}
+footer{
+    background-color: rgb(39, 39, 39);
+    height: 200px;
+    text-align: center;
+}
+
+footer h1{
+    color: gray;
+    padding-top: 30px;
+}
+
+footer p{
+    text-align: center;
+    color: grey;
+}
